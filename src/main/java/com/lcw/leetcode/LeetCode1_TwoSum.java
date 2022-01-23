@@ -14,7 +14,7 @@ import java.util.Map;
  * 链接：https://leetcode-cn.com/problems/two-sum
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
-public class TwoSum_1 {
+public class LeetCode1_TwoSum {
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap();
         for (int i = 0; i < nums.length; i++) {

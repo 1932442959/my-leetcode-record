@@ -6,7 +6,7 @@ import java.util.Map;
 /**
  * 给定一个字符串 s ，请你找出其中不含有重复字符的 最长子串 的长度。
  */
-public class LengthOfLongestSubstring_3 {
+public class LeetCode13_LengthOfLongestSubstring {
 
     private String longestStr = "";
     private Map<Character, Character> repeatMap = new HashMap<>();

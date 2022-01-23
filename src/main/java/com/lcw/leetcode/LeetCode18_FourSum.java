@@ -16,11 +16,11 @@ import java.util.List;
  * 链接：https://leetcode-cn.com/problems/4sum
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
-public class FourSum_18 {
+public class LeetCode18_FourSum {
     public static void main(String[] args) {
         int[] nums = {-1, 0, 0, 1};
         int target = 0;
-        List<List<Integer>> lists = new FourSum_18().fourSum(nums, target);
+        List<List<Integer>> lists = new LeetCode18_FourSum().fourSum(nums, target);
     }
 
     public List<List<Integer>> fourSum(int[] nums, int target) {

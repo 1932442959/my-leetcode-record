@@ -1,17 +1,17 @@
-package com.lcw.leetcode;
+package com.lcw.algorithm;
 
 /**
  * 快速排序
  */
-public class QuickSort_add {
+public class QuickSort {
     public static void main(String[] args) {
-        int s[] = new int[]{23, 42, 11, 90, 76, 23, 42, 88, 75, 44};
-        new QuickSort_add().quick_sort(s, 0, s.length - 1);
+        int s[] = new int[]{44, 42, 11, 90, 76, 23, 42, 88, 75, 23};
+        new QuickSort().quick_sort(s, 0, s.length - 1);
         for (int i = 0; i < s.length; i++) {
             System.out.println(s[i]);
         }
         System.out.println("================================================");
-        new QuickSort_add().quick_sort_reverse(s, 0, s.length - 1);
+        new QuickSort().quick_sort_reverse(s, 0, s.length - 1);
         for (int i = 0; i < s.length; i++) {
             System.out.println(s[i]);
         }

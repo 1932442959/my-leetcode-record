@@ -27,9 +27,9 @@ import java.util.Map;
  * 链接：https://leetcode-cn.com/problems/roman-to-integer
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
-public class RomanToInt_13 {
+public class LeetCode13_RomanToInt {
     public static void main(String[] args) {
-        System.out.println(new RomanToInt_13().romanToInt("MCMXCIV"));
+        System.out.println(new LeetCode13_RomanToInt().romanToInt("MCMXCIV"));
     }
 
     public int romanToInt(String s) {

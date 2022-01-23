@@ -7,7 +7,7 @@ package com.lcw.leetcode;
  * * 链接：https://leetcode-cn.com/problems/integer-to-roman
  * * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
-public class ZChange_6 {
+public class LeetCode6_ZChange {
     public String convert(String s, int numRows) {
         //只有一行或者字符串只有一个字符
         if (s.length() == 1 || numRows == 1) {

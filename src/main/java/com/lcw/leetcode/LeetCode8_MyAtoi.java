@@ -13,7 +13,7 @@ package com.lcw.leetcode;
  * * 链接：https://leetcode-cn.com/problems/integer-to-roman
  * * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
-public class MyAtoi_8 {
+public class LeetCode8_MyAtoi {
     public int myAtoi(String s) {
         //初始化最大值字符串长度 若结果大于该长度且不含 "-" 则返回最大值
         int max_length_positive = String.valueOf(Integer.MAX_VALUE).length();

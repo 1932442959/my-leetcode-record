@@ -1,18 +1,12 @@
 package com.lcw.leetcode;
 
-import com.sun.org.apache.bcel.internal.generic.RET;
-
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.Map;
-
 /**
  * 给你一个字符串 s，找到 s 中最长的回文子串。
  */
-public class LongestPalindrome_5 {
+public class LeetCode5_LongestPalindrome {
     public static void main(String[] args) {
         String s = "aa";
-        System.out.println(new LongestPalindrome_5().longestPalindrome(s));
+        System.out.println(new LeetCode5_LongestPalindrome().longestPalindrome(s));
     }
 
     public String longestPalindrome(String s) {

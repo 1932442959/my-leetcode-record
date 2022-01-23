@@ -9,7 +9,7 @@ package com.lcw.leetcode;
  * * 链接：https://leetcode-cn.com/problems/integer-to-roman
  * * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
-public class MaxAreaToStoreWater_11 {
+public class LeetCode11_MaxAreaToStoreWater {
     public int maxArea(int[] height) {
         //初始化最大面积
         int maxArea = 0;

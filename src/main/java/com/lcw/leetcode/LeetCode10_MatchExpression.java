@@ -11,10 +11,10 @@ package com.lcw.leetcode;
  * * 链接：https://leetcode-cn.com/problems/integer-to-roman
  * * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
-public class MatchExpression_10 {
+public class LeetCode10_MatchExpression {
     public static void main(String[] args) {
-        System.out.println(new MatchExpression_10().isMatch1("", ".*"));
-        System.out.println(new MatchExpression_10().isMatch("", ".*"));
+        System.out.println(new LeetCode10_MatchExpression().isMatch1("", ".*"));
+        System.out.println(new LeetCode10_MatchExpression().isMatch("", ".*"));
     }
 
     /**

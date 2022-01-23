@@ -5,7 +5,7 @@ package com.lcw.leetcode;
  * <p>
  * 如果不存在公共前缀，返回空字符串 ""。
  */
-public class LongestCommonPrefix_14 {
+public class LeetCode14_LongestCommonPrefix {
     public String longestCommonPrefix(String[] strs) {
         if (strs.length == 0) {
             return "";

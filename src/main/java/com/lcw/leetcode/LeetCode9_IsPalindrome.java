@@ -9,9 +9,9 @@ package com.lcw.leetcode;
  * 链接：https://leetcode-cn.com/problems/palindrome-number
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
-public class IsPalindrome_9 {
+public class LeetCode9_IsPalindrome {
     public static void main(String[] args) {
-        System.out.println(new IsPalindrome_9().isPalindrome(123432));
+        System.out.println(new LeetCode9_IsPalindrome().isPalindrome(123432));
     }
 
     public boolean isPalindrome(int x) {
